@@ -1,0 +1,6 @@
+[theme]
+name=lightdm-webkit-cv
+description=Collegium V ldm greeter
+engine=lightdm-webkit-greeter
+url=index.html
+session=cinnamon
