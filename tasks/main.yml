@@ -74,16 +74,4 @@
     - wine
     - zsh
 
-- name: Backup awesome default config
-  command: mv /etc/xdg/awesome/rc.lua /etc/xdg/awesome/rc.lua.default
-
-- name: Copy awesome warning config  
-  copy: src=awesome.conf dest=/etc/xdg/awesome/rc.lua owner=root group=root mode=0644
-
-- name: Backup i3 default config
-  command: mv /etc/i3/config /etc/i3/config.default
-
-- name: Copy i3 warning config
-  copy: src=i3.conf dest=/etc/i3/config owner=root group=root mode=0644
-
 - include: greeter.yml
