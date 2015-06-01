@@ -80,3 +80,4 @@
   command: mv /etc/i3/config /etc/i3/config.default
   copy: src=i3.conf dest=/etc/i3/config owner=root group=root mode=0644
 
+- include: greeter.yml

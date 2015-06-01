@@ -1,5 +1,3 @@
-
-
 html, body {
     height: 100%; width: 100%; overflow: hidden;
 }
@@ -27,9 +25,17 @@ body {
     color: #404040;
     -webkit-user-select: none
 }
-.wrapper {
-    position: relative;
-    min-height: 100%;
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.outer {
+    position: absolute;
+    min-heihgt:100%;
+    width: 100%;
+    display: table;
+		 
 }
 .card {
     overflow: hidden;
